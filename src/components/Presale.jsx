@@ -27,8 +27,8 @@ const Presale = () => {
           </div>
 
           <div className='border border-transparent mt-[40px] flex justify-between gap-x-12'>
-            <button className='text-white border border-blue-500 rounded-lg h-[40px] px-[4px] py-[2px] border-2 font-medium'>Switch to caption</button>
-            <button className='text-white border border-blue-500 rounded-lg h-[40px] px-[4px] py-[2px] border-2 font-medium'>Set Slippage</button>
+            <button className='text-white border-blue-500 rounded-lg h-[40px] px-[4px] py-[2px] border-2 font-medium'>Switch to caption</button>
+            <button className='text-white border-blue-500 rounded-lg h-[40px] px-[4px] py-[2px] border-2 font-medium'>Set Slippage</button>
           </div>
 
           <div className='mt-[40px]'>
@@ -42,22 +42,22 @@ const Presale = () => {
 
           <div className='mt-[20px] flex justify-between w-2/3'>
             <button 
-              className='text-white border border-blue-500 rounded-lg h-[40px] px-[4px] py-[2px] border-2 font-medium'
+              className='text-white border-blue-500 rounded-lg h-[40px] px-[4px] py-[2px] border-2 font-medium'
               onClick={handleReset}
             >
               Reset
             </button>
             <button 
-              className='text-white border border-blue-500 rounded-lg h-[40px] px-[4px] py-[2px] border-2 font-medium'
+              className='text-white border-blue-500 rounded-lg h-[40px] px-[4px] py-[2px] border-2 font-medium'
               onClick={() => handleSetValue('0.1')}
             >
-              0.1 ETH
+              0.1 Edu
             </button>
             <button 
-              className='text-white border border-blue-500 rounded-lg h-[40px] px-[4px] py-[2px] border-2 font-medium'
+              className='text-white border-blue-500 rounded-lg h-[40px] px-[4px] py-[2px] border-2 font-medium'
               onClick={() => handleSetValue('0.2')}
             >
-              0.2 ETH
+              0.2 Edu
             </button>
           </div>
 
